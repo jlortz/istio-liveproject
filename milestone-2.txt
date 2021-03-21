@@ -1,0 +1,38 @@
+HTTP/1.1 404 Not Found
+content-type: text/plain; charset=utf-8
+x-content-type-options: nosniff
+date: Sun, 21 Mar 2021 15:08:25 GMT
+content-length: 19
+x-envoy-upstream-service-time: 3
+server: istio-envoy
+
+404 page not found
+
+
+{
+    "request_id": "754b1f9c-57a3-99c2-bdb3-7fcc9b7b5e37",
+    "upstream_host": "10.84.0.8:8080",
+    "authority": "35.234.137.127",
+    "duration": "3",
+    "upstream_cluster": "outbound|80||frontend.online-boutique.svc.cluster.local",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+    "route_name": "-",
+    "x_forwarded_for": "10.154.0.16",
+    "response_flags": "-",
+    "downstream_local_address": "10.84.3.4:8080",
+    "bytes_received": "0",
+    "method": "GET",
+    "path": "/wrongpath",
+    "bytes_sent": "19",
+    "requested_server_name": "-",
+    "upstream_service_time": "3",
+    "upstream_local_address": "10.84.3.4:51054",
+    "start_time": "2021-03-21T15:08:25.220Z",
+    "downstream_remote_address": "10.154.0.16:34720",
+    "upstream_transport_failure_reason": "-",
+    "response_code": "404",
+    "istio_policy_status": "-",
+    "protocol": "HTTP/1.1"
+}
+
+The request was proxied to frontend service - "upstream_cluster": "outbound|80||frontend.online-boutique.svc.cluster.local".
