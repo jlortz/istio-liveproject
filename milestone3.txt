@@ -1,0 +1,51 @@
+depth=1 O = boutiquestore Inc., CN = boutiquestore.com
+verify return:1
+depth=0 CN = marketplace.boutiquestore.com, O = boutique store
+verify return:1
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN = marketplace.boutiquestore.com, O = boutique store
+   i:O = boutiquestore Inc., CN = boutiquestore.com
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIC7jCCAdYCAQAwDQYJKoZIhvcNAQELBQAwOTEbMBkGA1UECgwSYm91dGlxdWVz
+dG9yZSBJbmMuMRowGAYDVQQDDBFib3V0aXF1ZXN0b3JlLmNvbTAeFw0yMTAzMjcw
+NjE2MDRaFw0yMjAzMjcwNjE2MDRaMEExJjAkBgNVBAMMHW1hcmtldHBsYWNlLmJv
+dXRpcXVlc3RvcmUuY29tMRcwFQYDVQQKDA5ib3V0aXF1ZSBzdG9yZTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALkejaZE4gUlhzBJpvpxjkKnDpZNaFv9
+FahIlTprgNWUZBl6143zHfopUPygKMwt2r1oH3VTQs/HEzelKCay4vw30M1vJBMg
+vqfa+9PJH8A330vuFLo5wJd7FfrybIJTeFdPah+FktTsNFEmX4cbOeQKPytWXgWQ
+HcS3N9ZAe1czB4KW7KsuvtJET++/s8J/WBmUDrUIbwNBd9nxs77jkvPbKbSOoI+j
+ivsF6p+Xt++2J7D1sELru6nHQ+fOw1riTJRbp2IZs7E0UhXWIyqpHQTPF7cIeBmk
+tDAhlLTTTeBGU0ePbZRiLqkWAcRwTPlY44CUon5ImoKh9lu4krBqZ2ECAwEAATAN
+BgkqhkiG9w0BAQsFAAOCAQEAA5PkfVW8GJTKHzBPbEqGB2xe4rFPw0jVUu7h7Q8o
++aeKpWwZ1+ksAk+ULwr0S4TMQALBPlZgzSeGtRsb/kid75p2n4FkEtzDyMdBsWCl
+QtpPllOTvjRFlsicU+dvyqenl3UQ271d62LSuvtw9o3RVQYx0In5ub5qWW7Hjrjs
+GJU6UQG6tEiGH6G4W/mc9LIxvGGsDWSZhuLiUrU5lDIuWFERhfAt+7T7vNcMSiPM
+wcWeSp+B6wF4h5opQz+JpyWchy2bPfeuIUwJB1Jyq1Jvp/CuhDKFjJbBvbw0BX2B
+vijsmfG7mt2BtQxW7mbn2hoqYMhxnDzpN6jS67TuVBd03A==
+-----END CERTIFICATE-----
+subject=CN = marketplace.boutiquestore.com, O = boutique store
+
+issuer=O = boutiquestore Inc., CN = boutiquestore.com
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 1244 bytes and written 401 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
